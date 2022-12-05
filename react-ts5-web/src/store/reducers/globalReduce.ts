@@ -30,6 +30,7 @@ const globalSlice = createSlice({
             body.removeAttribute("theme-mode");
           }
         }
+        localStorage.setItem("theme",action.payload.theme);
       }
     },
   },

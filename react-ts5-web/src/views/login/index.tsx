@@ -7,7 +7,7 @@ import { LoginWrapper } from "./style";
 import { options } from "./config-particles";
 import { Button, Form, Input, message, Tooltip } from "antd";
 import { HeartTwoTone } from "@ant-design/icons";
-import { LoginParams } from "utils/types";
+import { LoginParams } from "@/utils/types";
 const Login = memo(() => {
   const dispatch = useDispatch();
   const navigator = useNavigate();

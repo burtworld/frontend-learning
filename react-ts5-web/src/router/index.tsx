@@ -4,7 +4,7 @@ import { Navigate } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const lazyLoad = (moduleName: string) => {
-  const Module = lazy(() => import(`views/${moduleName}`));
+  const Module = lazy(() => import(`@/views/${moduleName}`));
   return <Module />;
 };
 

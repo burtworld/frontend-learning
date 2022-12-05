@@ -1,10 +1,10 @@
 import React, { memo, useState, useEffect, useCallback } from "react";
-import routes from "router";
+import routes from "@/router";
 import { useRoutes } from "react-router-dom";
 import { shallowEqual, useSelector } from "react-redux";
 import { AudioOutlined } from "@ant-design/icons";
 import { Button, Input, Space } from "antd";
-import Login from "views/login";
+import Login from "@/views/login";
 
 import { Col, Divider, Row } from "antd";
 

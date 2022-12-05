@@ -1,5 +1,5 @@
 import React, { memo, useState, useEffect, useCallback } from "react";
-import routes from "router";
+import routes from "@/router";
 import { useRoutes, Route, Routes } from "react-router-dom";
 import { shallowEqual, useSelector } from "react-redux";
 

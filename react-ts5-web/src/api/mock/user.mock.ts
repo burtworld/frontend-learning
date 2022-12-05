@@ -1,6 +1,6 @@
-import { LoginResult, Role } from "interface/iUser";
+import { LoginResult, Role } from "@/interface/iUser";
 import Mock from "mockjs";
-import { PaResponse } from "utils/request";
+import { PaResponse } from "@/utils/request";
 
 Mock.mock("/user/login", "post", (config: any) => {
   const body: LoginResult = JSON.parse(config?.body);
