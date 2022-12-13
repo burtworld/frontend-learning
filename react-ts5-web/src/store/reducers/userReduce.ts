@@ -7,6 +7,7 @@ export interface UserState {
 
 const initialState: UserState = {
   count: 0,
+
 };
 
 const userSlice = createSlice({

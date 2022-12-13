@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 import { useLocation } from "react-router-dom";
 import LayoutHeader from "./LayoutHeader";
 import Sider from "antd/lib/layout/Sider";
+import LayoutMenu from "./LayoutMenu";
 
 const LayoutPage: React.FC = () => {
   const location = useLocation();
@@ -24,7 +25,9 @@ const LayoutPage: React.FC = () => {
       <LayoutHeader collasped={true} toggle={toggle} />
       <Layout>
         <Sider className="layout-page-side" trigger={null} collapsible collapsedWidth={80} collapsed={false} breakpoint="md">
-          
+          <LayoutMenu >
+
+          </LayoutMenu>
         </Sider>
       </Layout>
     </Layout>

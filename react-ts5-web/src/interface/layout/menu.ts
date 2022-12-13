@@ -17,7 +17,8 @@ interface MenuItem {
   /**
    * 子菜单
    */
-  children: MenuItem[];
+  children?: MenuItem[];
+
 }
 
 export type MenuChild = Omit<MenuItem, "children">;
